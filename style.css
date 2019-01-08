@@ -1,0 +1,105 @@
+.contact {
+    background-color: gray;
+    padding: 1% 0;
+    background: url("img/background.jpg") no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+}
+
+.contact .linkedin {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 1%;
+}
+
+.linkedin {
+    font-size: 1.3rem;
+}
+
+.linkedin i {
+    margin-right: 5px;
+}
+
+.contact .email {
+    font-size: 1.2rem;
+}
+
+.email a:link {
+    color: black;
+    text-decoration: none;
+}
+
+.email a:hover, .email a:active {
+    color: blue;
+}
+
+.contact ul{
+    list-style: none;
+    padding-left: 0;
+}
+
+.contact ul li ul {
+    list-style: inside;
+}
+
+.pic img {
+    width: 50%;
+}
+
+.info {
+    padding: 5%;
+    text-align: center;
+}
+
+.project-section {
+    padding: 1% 2% 1% 2%;
+}
+
+.header-center {
+    text-align: center;
+}
+
+.project {
+    margin: 0 2% 1% 2%;
+}
+
+.light-gray {
+    background-color: #E1E1D6;
+    padding: 1%;
+}
+
+.light-blue {
+    background-color: #D3D9DF;
+    padding: 1%;
+}
+
+.project ul {
+    list-style: none;
+}
+
+.presentation-section {
+    padding: 1% 2%;
+    background-color: lightgray;
+}
+
+.ppt {
+    margin: 2%;
+}
+
+.additional {
+    padding: 2% 5% 5% 5%;
+}
+
+footer {
+    padding: 4% 0;
+    text-align: center;
+    background-color: gray;
+}
+
+footer a {
+    margin-right: 1%;
+}
