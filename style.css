@@ -88,6 +88,14 @@
 
 .ppt {
     margin: 2%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ppt-details {
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
 }
 
 .additional {
