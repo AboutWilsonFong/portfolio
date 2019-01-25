@@ -83,6 +83,11 @@
     padding: 1%;
 }
 
+.project img {
+    float: left;
+    margin-right: 2%;
+}
+
 .project ul {
     list-style: none;
 }
