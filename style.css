@@ -85,7 +85,13 @@
 
 
 .logo-title {
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 2%;
+}
+
+.logo-title img {
+    margin-right: 3%;
 }
 
 .project ul {
