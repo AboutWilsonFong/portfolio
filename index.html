@@ -1,11 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
             crossorigin="anonymous">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
             crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+            crossorigin="anonymous"></script>
     </head>
     <body>
         <div class="contact">
@@ -134,28 +139,57 @@
                         be considered as potentially viable solutions to inventory management issues of the same nature at other Home
                         Depot stores. It is also advised that Home Depot conduct further research, both in our recommendation as well in
                         their competitors to consider the systems they use and if they may provide any improvements to the current system.</p>
-                    <h3>Conclusion</h3>
-                    <p>Our final recommendation to improve the inventory management system currently utilized by Home Depot is to increase
-                    communication within the supply chain and standardize their inventory control processes through the implementation of
-                    revised forecasting methods and systems. Increasing communication within the supply chain will promote cooperation
-                    (Thomas & Griffin, 1996), both within stores and between stores, and will help to address larger issues related to
-                    performance and inventory itself.</p>
-                    <p>By standardizing their forecasting techniques, Home Depot will see a reduction in the occurrence of over and
-                    understocking, as well as the Bullwhip Effect. This will benefit Home Depot greatly because, not only will the overall
-                    performance of inventory management system be improved, but the issue of holding costs associated with overstocking
-                    will also be addressed.</p>
-                    <p>In standardizing their forecasting system, a third party program like JDA would provide a significant upgrade over the
-                    C3 system currently utilized by Home Depot. Of the packages JDA offers on their website, the inventory management,
-                    demand management, and supply chain planning packages would likely be the most effective to address the issues that we
-                    have discussed in this report.</p>
-                    <p>JDA software will help improve Home Depot’s stock issues, specifically those related to inventory holes and
-                    understocking, through the adjustment of inventory policies and ordering strategies. JDA will further improve Home
-                    Depot’s forecasting accuracy with its integration of multiple forecasting methods into the framework it uses. These
-                    improvements will allow Home Depot’s forecasts to better reflect real time factors such as the market and/or customer
-                    demand, Team 3 Team Research Project Inventory Control 19 | P a g e as well as random variations in demand due to
-                    one-off events. Additionally, JDA will also assist in optimizing supply chain planning by reducing the amount of manual
-                    forecasting and planning currently required by department managers, ultimately reducing the risk of employee burnout
-                    (JDA, n.a.).</p>
+
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#InvControlReport">
+                        View Conclusion
+                    </button>
+                    
+                    <div class="modal fade" id="InvControlReport" tabindex="-1" role="dialog" aria-labelledby="InvControlReportLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="InvControlReportLabel">Conclusion for Inventory Control Report</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Our final recommendation to improve the inventory management system currently utilized by Home Depot is to increase
+                                        communication within the supply chain and standardize their inventory control processes through the implementation
+                                        of
+                                        revised forecasting methods and systems. Increasing communication within the supply chain will promote cooperation
+                                        (Thomas & Griffin, 1996), both within stores and between stores, and will help to address larger issues related to
+                                        performance and inventory itself.</p>
+                                    <p>By standardizing their forecasting techniques, Home Depot will see a reduction in the occurrence of over and
+                                        understocking, as well as the Bullwhip Effect. This will benefit Home Depot greatly because, not only will the
+                                        overall
+                                        performance of inventory management system be improved, but the issue of holding costs associated with overstocking
+                                        will also be addressed.</p>
+                                    <p>In standardizing their forecasting system, a third party program like JDA would provide a significant upgrade over
+                                        the
+                                        C3 system currently utilized by Home Depot. Of the packages JDA offers on their website, the inventory management,
+                                        demand management, and supply chain planning packages would likely be the most effective to address the issues that
+                                        we
+                                        have discussed in this report.</p>
+                                    <p>JDA software will help improve Home Depot’s stock issues, specifically those related to inventory holes and
+                                        understocking, through the adjustment of inventory policies and ordering strategies. JDA will further improve Home
+                                        Depot’s forecasting accuracy with its integration of multiple forecasting methods into the framework it uses. These
+                                        improvements will allow Home Depot’s forecasts to better reflect real time factors such as the market and/or
+                                        customer
+                                        demand, Team 3 Team Research Project Inventory Control 19 | P a g e as well as random variations in demand due to
+                                        one-off events. Additionally, JDA will also assist in optimizing supply chain planning by reducing the amount of
+                                        manual
+                                        forecasting and planning currently required by department managers, ultimately reducing the risk of employee
+                                        burnout
+                                        (JDA, n.a.).</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -200,31 +234,67 @@
                     stream will be a royalty rate of 10% of the price of each Gear Fit NW sold. This will yield NW Tech revenue of CAD
                     11,669,625 and net income of CAD 884,408 in the first year. These figures, along with growth projections for subsequent
                     years, demonstrate the direct exporting venture’s mutual profitability and that NW Tech should pursue it.</p>
-                    <h3>Conclusion</h3>
-                    <p>The Gear Fit NW is a revolutionary product that allows bioelectric impedance analysis (BIA) technology to be much more
-                    accessible. As an activity wearable, the Gear Fit NW is unprecedently functional and fashionable.</p>
-                    <p>Confidence can be drawn from the target market’s price inelasticity and habits. Affluent Chinese consumers are on the
-                    rise and regardless of economic standing, all consumers opt to attain foreign products. The elevated image that foreign
-                    products carry in the eyes of consumers makes price skimming strategies justifiable. The innovative Gear Fit NW is
-                    priced at a level comparable to competition such as Fitbit; consumers would only be paying 10% more. Additionally, with
-                    Samsung Electronics’ technology, battery life is prolonged which is a highly sought-after feature. Despite the added
-                    features, it costs less than what it would cost to create a Fitbit or Jaw Bone activity wearable. This makes the Gear
-                    Fit NW competitive and is certain to boost Samsung’s presence in China. The strategic alliance will take full advantage
-                    of Samsung Electronics e-HMS system which ensures the materials and quality of Samsung Electronics’ products are
-                    environmentally friendly (Samsung, 2008). This means the product can also cater to environmentally concerned consumers.</p>
-                    <p>Large capital expenditures will not be needed because Samsung Electronics already owns preexisting capital. Additional
-                    brick and mortar capital is not needed given the emphasis on E-commerce. Furthermore, Samsung Electronics’ brand
-                    presence, expertise, and professional networking are fundamental to the success of this venture. Samsung Electronics
-                    Logitech has the capacity to carry out the strategic alliance’s distribution effectively and efficiently.</p>
-                    <p>As seen in the financial statements of this business plan, forecasts show promising growth. Net income grows from CAD
-                    884,408 in year 1 to CAD 4,319,343 in year 5. The profit margin increases from approximately 8% to 19%, with an average
-                    profit margin of 15% (see Appendix A). Additionally, there is an expected 32% sales growth in the second year of
-                    operations. The profit margin and sales growth provides additional confidence in the venture.</p>
-                    <p>NW Tech has experienced and qualified staff that are more than capable of ensuring success. NW Tech’s management team
-                    has also taken precautionary measures to protect the firm from international business risks, such as attaining
-                    insurance from Export Development Canada. Given the opportunities and vast benefits in China, NW Tech can see promising
-                    growth and profits from this strategic alliance. Measures taken to mitigate risk ensures that NW Tech, alongside
-                    Samsung Electronics, is sufficiently prepared to take hold of the opportunities available in China.</p>
+
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tradeMgmt">
+                        View Conclusion
+                    </button>
+                    
+                    <div class="modal fade" id="tradeMgmt" tabindex="-1" role="dialog" aria-labelledby="tradeMgmtLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="tradeMgmtLabel">Conclusion for International Trade Manangement</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>The Gear Fit NW is a revolutionary product that allows bioelectric impedance analysis (BIA) technology to be much
+                                        more
+                                        accessible. As an activity wearable, the Gear Fit NW is unprecedently functional and fashionable.</p>
+                                    <p>Confidence can be drawn from the target market’s price inelasticity and habits. Affluent Chinese consumers are on
+                                        the
+                                        rise and regardless of economic standing, all consumers opt to attain foreign products. The elevated image that
+                                        foreign
+                                        products carry in the eyes of consumers makes price skimming strategies justifiable. The innovative Gear Fit NW is
+                                        priced at a level comparable to competition such as Fitbit; consumers would only be paying 10% more. Additionally,
+                                        with
+                                        Samsung Electronics’ technology, battery life is prolonged which is a highly sought-after feature. Despite the
+                                        added
+                                        features, it costs less than what it would cost to create a Fitbit or Jaw Bone activity wearable. This makes the
+                                        Gear
+                                        Fit NW competitive and is certain to boost Samsung’s presence in China. The strategic alliance will take full
+                                        advantage
+                                        of Samsung Electronics e-HMS system which ensures the materials and quality of Samsung Electronics’ products are
+                                        environmentally friendly (Samsung, 2008). This means the product can also cater to environmentally concerned
+                                        consumers.</p>
+                                    <p>Large capital expenditures will not be needed because Samsung Electronics already owns preexisting capital.
+                                        Additional
+                                        brick and mortar capital is not needed given the emphasis on E-commerce. Furthermore, Samsung Electronics’ brand
+                                        presence, expertise, and professional networking are fundamental to the success of this venture. Samsung
+                                        Electronics
+                                        Logitech has the capacity to carry out the strategic alliance’s distribution effectively and efficiently.</p>
+                                    <p>As seen in the financial statements of this business plan, forecasts show promising growth. Net income grows from
+                                        CAD
+                                        884,408 in year 1 to CAD 4,319,343 in year 5. The profit margin increases from approximately 8% to 19%, with an
+                                        average
+                                        profit margin of 15% (see Appendix A). Additionally, there is an expected 32% sales growth in the second year of
+                                        operations. The profit margin and sales growth provides additional confidence in the venture.</p>
+                                    <p>NW Tech has experienced and qualified staff that are more than capable of ensuring success. NW Tech’s management
+                                        team
+                                        has also taken precautionary measures to protect the firm from international business risks, such as attaining
+                                        insurance from Export Development Canada. Given the opportunities and vast benefits in China, NW Tech can see
+                                        promising
+                                        growth and profits from this strategic alliance. Measures taken to mitigate risk ensures that NW Tech, alongside
+                                        Samsung Electronics, is sufficiently prepared to take hold of the opportunities available in China.</p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
 
@@ -261,62 +331,100 @@
                     China holds a more promising market for Nike to enter. To provide insight on the steps necessary in undertaking this
                     market entry, an action plan will be provided at the end of this report. Recommendations for further research will be
                     found in the action plan and it will also include steps to validate the research compiled in this report.</p>
-                    <h3>Conclusion</h3>
-                    <p>Based on the research conducted in each country, China is in Nike’s best interest for market entry. China is the most
-                    promising because it fulfills Nike’s strategic objectives to:</p>
-                    <p>i. Objective 1: Identify profitable markets for electronic wearables that can sustain growth and successfully enter
-                    them.
-                        <ul>
-                            <li>a. China is moderately stable politically and regulatory reforms are making business conduct in the country easier.</li>
-                            <li>b. China is one of the fastest growing economies. This is reflected in the growing population of affluent individuals.</li>
-                            <li>c. China has a large market for electronic wearable. Although the growth is slower than the UAE’s, the sheer volume of
-                            potential consumers outweighs profit prospects in the UAE.</li>
-                            <li>d. Considering operational costs and the tax regime of each country, Nike has determined that China will generate the
-                            most profit throughout this venture; See Appendix I for a forecast of profits for the next 3 years. Profits can be
-                            repatriated</li>
-                            <li>e. China’s market is expected to continue its upwards trend in the foreseeable future. This is especially true for the
-                            smart wearables segment, which will directly benefit the NS Smart Watch.</li>
-                            <li>f. China has sufficient infrastructure to support the NS Smart Watch.</li>
-                        </ul>
-                    </p>
-                    <p>ii. Objective 2: Work together with Samsung Electronics to produce a smart watch that is innovative and desirable to
-                    the consumers.
-                        <ul>
-                            <li>a. Samsung is an experience manufacturer of smart watches. They also have experience with integrating a camera into
-                            smart wearables.</li>
-                            <li>b. The NS Smart Watch will be innovative and encourage consumers to try the product out.</li>
-                            <li>c. Consumers who are tech savvy, trendy, fitness oriented and health conscious will be early adopters, and the
-                            consumers that find the NS Smart Watch desirable.</li>
-                        </ul>
-                    </p>
-                    <p>iii. Objective 3: Access to markets with the opportunity to generate international presence, market share, and brand
-                    recognition.
-                        <ul>
-                            <li>a. Compared to the UAE, China has a much larger audience to build awareness from.</li>
-                            <li>b. 51% of consumers use WeChat’s mobile payment system, this suggests that Nike’s brand will receive an equal
-                            proportion of exposure.</li>
-                            <li>c. Samsung and Nike have pre-existing networks in China. Therefore, it is safe to assume that market entry will not be
-                            as difficult as it is for a firm completely new to the market. This also suggest negotiating with the locals will not
-                            be difficult.</li>
-                            <li>d. International brands in China have failed due to the lack of innovation; this will allow Nike to develop
-                            international presence due to the lack of competition from international brands.</li>
-                            <li>e. The camera function will create a competitive advantage for Nike to increase market share.</li>
-                            <li>f. Through this venture, there is the potential to expand into neighbouring Asian countries as well as Western and
-                            European countries. Nike and Samsung can market the NS Smart Watch in markets that they are already in across the
-                            globe.</li>
-                        </ul>
-                    </p>
-                    <p>iv. Objective 4: Diversify Nike’s product mix whiling gaining experience manufacturing reputable smart watches and
-                    potentially expand into other wearable electronics markets across the globe.
-                        <ul>
-                            <li>a. Nike will acquire knowledge and expertise from working with Samsung. Nike’s experience in China creates an
-                            opportunity for Nike to expand into other markets.</li>
-                            <li>b. The partnership can be restructured and target other countries.</li>
-                            <li>c. Samsung can potentially become a partner in the long run to help Nike further expand its product line with
-                            electronic wearables.</li>
-                            <li>d. Samsung may market the NS Smart Watch in Korea through the partnership.</li>
-                        </ul>
-                    </p>
+
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#tradeResearch">
+                        View Conclusion
+                    </button>
+                    
+                    <div class="modal fade" id="tradeResearch" tabindex="-1" role="dialog" aria-labelledby="tradeResearchLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="tradeResearchLabel">Conclusion for International Trade Research</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <p>Based on the research conducted in each country, China is in Nike’s best interest for market entry. China is the
+                                        most
+                                        promising because it fulfills Nike’s strategic objectives to:</p>
+                                    <p>i. Objective 1: Identify profitable markets for electronic wearables that can sustain growth and successfully enter
+                                        them.
+                                        <ul>
+                                            <li>a. China is moderately stable politically and regulatory reforms are making business conduct in the country
+                                                easier.</li>
+                                            <li>b. China is one of the fastest growing economies. This is reflected in the growing population of affluent
+                                                individuals.</li>
+                                            <li>c. China has a large market for electronic wearable. Although the growth is slower than the UAE’s, the
+                                                sheer volume of
+                                                potential consumers outweighs profit prospects in the UAE.</li>
+                                            <li>d. Considering operational costs and the tax regime of each country, Nike has determined that China will
+                                                generate the
+                                                most profit throughout this venture; See Appendix I for a forecast of profits for the next 3 years. Profits
+                                                can be
+                                                repatriated</li>
+                                            <li>e. China’s market is expected to continue its upwards trend in the foreseeable future. This is especially
+                                                true for the
+                                                smart wearables segment, which will directly benefit the NS Smart Watch.</li>
+                                            <li>f. China has sufficient infrastructure to support the NS Smart Watch.</li>
+                                        </ul>
+                                    </p>
+                                    <p>ii. Objective 2: Work together with Samsung Electronics to produce a smart watch that is innovative and desirable to
+                                        the consumers.
+                                        <ul>
+                                            <li>a. Samsung is an experience manufacturer of smart watches. They also have experience with integrating a
+                                                camera into
+                                                smart wearables.</li>
+                                            <li>b. The NS Smart Watch will be innovative and encourage consumers to try the product out.</li>
+                                            <li>c. Consumers who are tech savvy, trendy, fitness oriented and health conscious will be early adopters, and
+                                                the
+                                                consumers that find the NS Smart Watch desirable.</li>
+                                        </ul>
+                                    </p>
+                                    <p>iii. Objective 3: Access to markets with the opportunity to generate international presence, market share, and brand
+                                        recognition.
+                                        <ul>
+                                            <li>a. Compared to the UAE, China has a much larger audience to build awareness from.</li>
+                                            <li>b. 51% of consumers use WeChat’s mobile payment system, this suggests that Nike’s brand will receive an
+                                                equal
+                                                proportion of exposure.</li>
+                                            <li>c. Samsung and Nike have pre-existing networks in China. Therefore, it is safe to assume that market entry
+                                                will not be
+                                                as difficult as it is for a firm completely new to the market. This also suggest negotiating with the
+                                                locals will not
+                                                be difficult.</li>
+                                            <li>d. International brands in China have failed due to the lack of innovation; this will allow Nike to develop
+                                                international presence due to the lack of competition from international brands.</li>
+                                            <li>e. The camera function will create a competitive advantage for Nike to increase market share.</li>
+                                            <li>f. Through this venture, there is the potential to expand into neighbouring Asian countries as well as
+                                                Western and
+                                                European countries. Nike and Samsung can market the NS Smart Watch in markets that they are already in
+                                                across the
+                                                globe.</li>
+                                        </ul>
+                                    </p>
+                                    <p>iv. Objective 4: Diversify Nike’s product mix whiling gaining experience manufacturing reputable smart watches and
+                                        potentially expand into other wearable electronics markets across the globe.
+                                        <ul>
+                                            <li>a. Nike will acquire knowledge and expertise from working with Samsung. Nike’s experience in China creates
+                                                an
+                                                opportunity for Nike to expand into other markets.</li>
+                                            <li>b. The partnership can be restructured and target other countries.</li>
+                                            <li>c. Samsung can potentially become a partner in the long run to help Nike further expand its product line
+                                                with
+                                                electronic wearables.</li>
+                                            <li>d. Samsung may market the NS Smart Watch in Korea through the partnership.</li>
+                                        </ul>
+                                    </p>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
                 </div>
             </div>
         </div>
@@ -401,5 +509,6 @@
             <a class="btn btn-primary linkedin" href="https://www.linkedin.com/in/mrwilsonfong" target="_blank"><i class="fab fa-linkedin"></i>Linkedin</a>
             <a class="btn btn-primary linkedin" href="mailto:wilsonfong92@gmail.com"><i class="fas fa-envelope"></i>wilsonfong92@gmail.com</a>
         </footer>
+
     </body>
 </html>
